@@ -21,29 +21,14 @@ body, html {
     opacity: 0; /* Initially hide all images */
     transition: opacity 1s ease-in-out; /* Add transition effect */
 }
-
-.homeoverlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 24%;
-    height: 100%;
-    padding: 20px;
-    box-sizing: border-box;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.5);
-    display: flex;
-    flex-direction: column;
-    justify-content: top;
-}
-
 .container-about-me {
     
-    height: 300vh;
+    height: auto;
     overflow-y: auto;
     
     display: flex;
     flex-direction: row;
+    
 }
 
 
@@ -53,14 +38,33 @@ body, html {
     overflow: hidden; /* Hide overflow of the image */
 }
 .column-left {
-    flex:.25;
+    flex: .25;
     position: relative;
-    overflow: hidden; /* Hide overflow of the image */
+    display: flex;
+    flex-direction: column;
 }
+
 .column-right {
-    flex:0.75;
+    flex: .75;
     position: relative;
-    overflow: hidden; /* Hide overflow of the image */
+    display: flex;
+    flex-direction: column;
+}
+
+
+.homeoverlay {
+    position: sticky; /* Make the overlay sticky */;
+    top: 0;
+    left: 0;
+    width:  100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    color: rgb(255, 115, 115);
+    background-color: rgba(0, 0, 0, 0.68);
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
 }
 
 
@@ -72,8 +76,8 @@ body, html {
     height: 100%;
     padding: 20px;
     box-sizing: border-box;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(255, 115, 115);
+    background-color: rgb(0, 0, 0);
     display: flex;
     flex-direction: column;
     justify-content: top;
