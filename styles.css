@@ -123,7 +123,29 @@ body, html {
     text-decoration: none;
 }
 
+
+
 .list a:hover {
+    text-decoration: underline;
+}
+
+.publist{
+    list-style-type: disc;
+    padding: 0;
+}
+.publist li {
+    margin-bottom: 8px; /* Adjust the spacing as per your preference */
+}
+.publist a {
+    font-family: 'Roboto';
+    font-size: 18px;
+    color: rgb(5, 5, 5);
+    text-decoration: none;
+}
+
+
+
+.publist a:hover {
     text-decoration: underline;
 }
 
@@ -208,4 +230,58 @@ body, html {
 }
 .link:hover {
     text-decoration: underline;
+}
+
+/*email styling*/
+.contact-form-container {
+    width: 70%; /* Set a fixed width for the form container */
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px; /* Decreased padding to reduce height */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: "Roboto";
+}
+
+.contact-form-container h2 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px; /* Slightly decreased margin between form groups */
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
 }

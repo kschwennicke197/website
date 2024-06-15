@@ -31,10 +31,27 @@
                 </div>
                 <p class="image-credit">Photo by Bethany Reeves on Unsplash</p>
             </div>
-            <h2 class="section">May not need title</h2>
             <p class="standard-text">
-                add button to send email 
+                You can contact via emial here:
             </p>   
+        </div>
+        <div class="contact-form-container">
+            <h2>Contact Form</h2>
+            <form id="contactForm" action="send_email.php" method="POST">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
         </div>
     </div>
 </div>
