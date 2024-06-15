@@ -8,6 +8,8 @@ body, html {
     
     display: flex;
     height: 100%;
+    width: 100%;
+    flex:1;
 }
 
 .slideshow {
@@ -49,7 +51,7 @@ body, html {
 
 .column-left-home {
     height:100%;
-    flex: .25;
+    width: 25%;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -58,7 +60,7 @@ body, html {
 
 
 .column-left {
-    height:115%;
+    height:130%;
     flex: .25;
     position: relative;
     display: flex;
@@ -186,7 +188,6 @@ body, html {
     font-size: 40px;
     font-family: 'impact';
     margin-bottom: 10px; /* Add some space below the heading */
-    text-align: center; /* Center align the title */
 }
 
 .section{
