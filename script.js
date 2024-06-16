@@ -21,7 +21,7 @@ function nextSlide() {
 showSlide(currentIndex);
 
 // Start the slideshow
-setInterval(nextSlide, 5000); // Change slide every 5 seconds (5000 milliseconds)
+setInterval(nextSlide, 3000); // Change slide every 3 seconds (3000 milliseconds)
 
 //Java script for emails
 
