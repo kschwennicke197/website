@@ -172,6 +172,14 @@
     text-decoration: underline;
 }
 
+.publist .new-tag {
+    font-size: 0.9em; /* optional: slightly smaller than main text */
+    color: rgb(255, 115, 115);   /* inherit the text color */
+    font-family: inherit; /* match the font */
+    margin-top: 0.2em;
+    font-weight: bold; /* optional: emphasize */
+}
+
 .content {
     text-align: left; /* Left-align the text */
     margin-left: 20px;
