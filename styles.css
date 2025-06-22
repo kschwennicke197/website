@@ -173,10 +173,10 @@
 }
 
 .publist .new-tag {
-    font-size: 0.9em; /* optional: slightly smaller than main text */
+    font-size: 12px; /* optional: slightly smaller than main text */
     color: rgb(255, 115, 115);   /* inherit the text color */
-    font-family: inherit; /* match the font */
-    margin-top: 0.2em;
+    font-family: 'Roboto'; /* match the font */
+    margin-top: 0.5em;
     font-weight: bold; /* optional: emphasize */
 }
 
